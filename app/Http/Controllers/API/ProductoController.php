@@ -28,7 +28,7 @@ class ProductoController extends Controller
             //code...
             $request->validate([
                 'nombre' => 'required|string',
-                'required|numeric|min:0',
+                'precio' => 'required|numeric|min:0',
             ]);
 
 
